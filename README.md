@@ -3,7 +3,7 @@
 ## Overview 
 A Data-Driven Exploration of Potholes in NYC with Predictive Modeling, Spatial Analysis, and Strategic Recommendations
 
-## Introduction
+## Introduction and Problem Statement
 In the bustling streets of New York City, where individuals spend an average of 2 hours daily navigating the vibrant urban landscape, the quality of their commuting experience is a critical factor. Imagine a scenario where this daily journey is marred by the presence of potholes, and unpredictable road hazards that not only pose a threat to vehicle safety but also significantly impact commute times. 
 
 This data science project aims to tackle the issue head-on by leveraging advanced predictive modeling techniques to identify and forecast pothole locations across NYC. By analyzing historical data, weather patterns, road maintenance schedules, and other relevant factors, we seek to develop a robust predictive model that can anticipate the likelihood of pothole formation in different areas of the city. "The ultimate objective is to equip municipal authorities with real-time insights, enabling them to proactively address the issue by identifying and prioritizing potential pothole-prone areas in advance. 
