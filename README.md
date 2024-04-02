@@ -13,8 +13,8 @@ By analyzing historical data and road maintenance schedules, we'll develop a rob
 ## Impact
 Potholes pose a common challenge for drivers and pedestrians, causing vehicle damage and traffic congestion. Efficient pothole management can save millions in repair costs and reduce environmental impact. This project aims to enhance NYC's transportation infrastructure, benefiting businesses, residents, and the environment.
  
- ## The methodology is divided into the following key steps:
-This is a high level overview of the methodology used in this project.
+ ## Process and Project Structure:
+This is a high level overview of the Process.
 
  **Data Collection:**
    * Potholes Data and Traffic Data used in this project is collected from "NYC OPEN DATA"
@@ -29,11 +29,14 @@ This is a high level overview of the methodology used in this project.
    - Look at relationships between features.
    - Plot the Data for visual insights
 
-## Jupyter Notebooks 
+## Feature Engineering
 
-The Jupyter Notebooks will cover every Data Analysis, Cleaning and further steps.
+Create new Features such as zip_codes as our target variable from the existing features
 
- - EDA_CAPSTONE.ipnb
+## Statical Analysis
+## Baseline Model
+## Advance Modeling with HyperParameters and Pipiline
+
 
 ## Data Dictionary
 This is a general data dictionary for Potholes Data. 
