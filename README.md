@@ -4,16 +4,14 @@
 A Data-Driven Exploration of Potholes in NYC with Predictive Modeling, Spatial Analysis, and Strategic Recommendations
 
 ## Introduction and Problem Statement
-In the bustling streets of New York City, where individuals spend an average of 2 hours daily navigating the vibrant urban landscape, the quality of their commuting experience is a critical factor. Imagine a scenario where this daily journey is marred by the presence of potholes, and unpredictable road hazards that not only pose a threat to vehicle safety but also significantly impact commute times. 
+In NYC's busy streets, where people spend 40 mins daily commuting, road quality is crucial. Picture this: daily journeys disrupted by potholes and unpredictable hazards, endangering safety and delaying commutes. This project is vital. No prior work in this area exists, and I aim to assist authorities in tackling this issue effectively.
 
-This data science project aims to tackle the issue head-on by leveraging advanced predictive modeling techniques to identify and forecast pothole locations across NYC. By analyzing historical data, weather patterns, road maintenance schedules, and other relevant factors, we seek to develop a robust predictive model that can anticipate the likelihood of pothole formation in different areas of the city. "The ultimate objective is to equip municipal authorities with real-time insights, enabling them to proactively address the issue by identifying and prioritizing potential pothole-prone areas in advance. 
-
-through this project, we aim to contribute to the development of a smarter and more resilient urban transportation system in NYC, ultimately improving the quality of life for its residents and visitors.
+## Solution Proposal
+This project aims to predict zip codes of pothole locations across NYC using latitudes and longitudes leveraging machine learning classification problem solutions. 
+By analyzing historical data and road maintenance schedules, we'll develop a robust predictive model. Our objective is to provide real-time insights to municipal authorities, helping them proactively address pothole-prone areas. Ultimately, this initiative seeks to enhance NYC's urban transportation system and improve the quality of life for its residents and visitors.
 
 ## Impact
-The occurrence of potholes is a common challenge faced by both drivers and pedestrians alike, leading to not only potential vehicle damage but also contributing to traffic congestion and increased travel times. By efficiently managing potholes, the city can potentially save millions of dollars in repair costs and minimize the environmental impact associated with frequent road maintenance. The project's societal value lies in improving the overall quality of transportation infrastructure in NYC, positively impacting businesses, residents, and the environment.
-
-
+Potholes pose a common challenge for drivers and pedestrians, causing vehicle damage and traffic congestion. Efficient pothole management can save millions in repair costs and reduce environmental impact. This project aims to enhance NYC's transportation infrastructure, benefiting businesses, residents, and the environment.
  
  ## The methodology is divided into the following key steps:
 This is a high level overview of the methodology used in this project.
@@ -24,11 +22,6 @@ This is a high level overview of the methodology used in this project.
 
    - Street_Pothole_Work_Orders_-_Closed__Dataset_ for Potholes
      Source: https://data.cityofnewyork.us/Transportation/Street-Pothole-Work-Orders-Closed-Dataset-/x9wy-ing4/about_data
-   - NYC_Central_Park_weather_1869-2022 for weather
-     Source: https://www.kaggle.com/datasets/danbraswell/new-york-city-weather-18692022
-   - Automated_Traffic_Volume_Counts_20240306 for Traffic Volumes
-     Source: https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-wayt/about_data
-
 
  **Data Processing, Cleaning and EDA:**
    - Clean and explore NYC_Potholes Data.
