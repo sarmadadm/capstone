@@ -1,4 +1,4 @@
-# Title: Unveiling Urban Road Challenges - NYC Pothole Prediction
+# Title: NYC Pothole Prediction - Urban Road Challenges
 
 ## Overview 
 A Data-Driven Exploration of Potholes in NYC with Predictive Modeling, Spatial Analysis, and Strategic Recommendations
@@ -13,30 +13,32 @@ By analyzing historical data and road maintenance schedules, we'll develop a rob
 ## Impact
 Potholes pose a common challenge for drivers and pedestrians, causing vehicle damage and traffic congestion. Efficient pothole management can save millions in repair costs and reduce environmental impact. This project aims to enhance NYC's transportation infrastructure, benefiting businesses, residents, and the environment.
  
- ## Process and Project Structure:
-This is a high level overview of the Process.
+    
+## Project Workflow
 
- **Data Collection:**
+```mermaid
+graph TD;
+    Data_Collection-->Data_Description;
+    Data_Description-->Data_Cleaning;
+    Data_Cleaning-->Check_Duplicates;
+    Data_Cleaning-->Exploratory_Data_Analysis;
+    Data_Cleaning-->Check_Nulls;
+    Exploratory_Data_Analysis-->Gather_Useful_Insights;
+    Exploratory_Data_Analysis-->Plot_Inisghts;
+    Plot_Inisghts-->Feature_Engineering;
+    Gather_Useful_Insights-->Feature_Engineering;
+    Feature_Engineering-->Data_Labeling;
+    Data_Labeling-->Data_Modeling;
+    Data_Modeling-->Model_Evaluation;
+    Model_Evaluation-->Deployement;
+```
+
+ **Data Source:**
    * Potholes Data and Traffic Data used in this project is collected from "NYC OPEN DATA"
      Weather Data is imported from Kaggle which ranges from 1869 to 2022
 
    - Street_Pothole_Work_Orders_-_Closed__Dataset_ for Potholes
      Source: https://data.cityofnewyork.us/Transportation/Street-Pothole-Work-Orders-Closed-Dataset-/x9wy-ing4/about_data
-
- **Data Processing, Cleaning and EDA:**
-   - Clean and explore NYC_Potholes Data.
-   - Look at Distributions of features.
-   - Look at relationships between features.
-   - Plot the Data for visual insights
-
-## Feature Engineering
-
-Create new Features such as zip_codes as our target variable from the existing features
-
-## Statical Analysis
-## Baseline Model
-## Advance Modeling with HyperParameters and Pipiline
-
 
 ## Data Dictionary
 This is a general data dictionary for Potholes Data. 
